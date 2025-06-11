@@ -27,6 +27,9 @@ jobs:
       - name: Build
         run: cmake --build build --config Release
 
+      - name: Run Tests
+        run: ctest --test-dir build --output-on-failure
+
       - name: Upload exe to Release
         uses: softprops/action-gh-release@v1
         with:
