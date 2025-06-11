@@ -1,6 +1,5 @@
 # GeoTool
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Release](https://img.shields.io/github/v/release/romaricbeltran/GeoTool?style=flat-square)
+[![Build and Release](https://github.com/romaricbeltran/GeoTool/actions/workflows/build.yml/badge.svg)](https://github.com/romaricbeltran/GeoTool/actions/workflows/build.yml)
 
 🛠️ Outil de visualisation 3D écrit en C++ avec OpenGL & ImGui.  
 📦 Construit avec CMake, compatible MSVC / Windows.
